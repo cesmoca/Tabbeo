@@ -1,6 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "com.tabbeo"
+
+    buildFeatures {
+        buildConfig true
+    }
+
     signingConfigs {
         config {
             keyAlias 'Tabbeo'
@@ -11,7 +17,6 @@ android {
     }
 
     compileSdkVersion 23
-    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.tabbeo"
         minSdkVersion 16
@@ -37,7 +42,7 @@ android {
         abi {
             enable true
             reset()
-            include 'x86_64', 'armeabi'
+            include 'x86_64'
             // universalApk true
         }
     }
@@ -48,14 +53,14 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:design:23.3.0'
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:design:23.3.0'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.android.support:multidex:1.0.3'
-    compile 'com.instabug.library:instabugcompat:2+'
-    compile 'com.google.android.gms:play-services:10.0.1'
-    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.instabug.library:instabugcompat:2+'
+    implementation 'com.google.android.gms:play-services:10.0.1'
+    testImplementation 'junit:junit:4.12'
 }
