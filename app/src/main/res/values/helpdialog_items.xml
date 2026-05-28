@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array
+        name="helpdialog_items">
+        <item>@string/HelpDialog_DontUnderstandExercise</item>
+        <item>@string/HelpDialog_SomethingIsIncorrect</item>
+        <item>@string/HelpDialog_SuggestAnImprovement</item>
+        <item>@string/HelpDialog_SoundNotDetected</item>
+    </array>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/white"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/Settings_Debug_DOREMI_Notation"
+                    android:textColor="@color/tabbeo_light_blue"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/fragment_settings_notesnotation_doremi_radiobutton"
+                    android:buttonTint="@color/tabbeo_dark_green"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Settings_Debug_ABC_Notation"
+                    android:textColor="@color/tabbeo_light_blue"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/fragment_settings_notesnotation_abc_radiobutton"
+                    android:buttonTint="@color/tabbeo_dark_green"/>
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/fragment_settings_hand_preference_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/Settings_Left_Handed"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_light_blue" />
+
+            <Switch
+                android:id="@+id/fragment_settings_debug_mode_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/Settings_Debug_Mode"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_light_blue" />
+
+            <Button
+                android:id="@+id/fragment_settings_clearscores_button"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/Settings_Clear_Scores"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

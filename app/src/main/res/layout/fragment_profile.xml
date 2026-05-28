@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:id="@+id/fragment_profile_level_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Level X"
+                android:gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/tabbeo_light_blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_profile_completed_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/Profile_CompletedProgress"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_light_blue" />
+
+            <ProgressBar
+                android:id="@+id/fragment_profile_completion_progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:progress="75" />
+
+            <TextView
+                android:id="@+id/fragment_profile_total_experience_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Total experience"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_light_blue" />
+
+            <TextView
+                android:id="@+id/fragment_profile_sessions_calendar_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Cuando has tocado (No funcional)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_light_blue"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/chordy_bad" />
+
+            <TextView
+                android:id="@+id/fragment_profile_recordings_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tus grabaciones (No funcional)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_light_blue"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/chordy_bad" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

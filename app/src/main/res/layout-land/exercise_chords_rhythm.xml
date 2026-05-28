@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.tabbeo.Widgets.FretboardWidget
+            android:id="@+id/exercise_chords_rhythm_fretboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <com.tabbeo.Widgets.ChordNamesWidget
+            android:id="@+id/exercise_chords_rhythm_chord_names"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/exercise_chords_rhythm_fretboard"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <com.tabbeo.Widgets.ChordStrokesStreamWidget
+        android:id="@+id/exercise_chords_rhythm_chord_strokes_stream"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/exercise_chords_rhythm_chord_names"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="7" />
+
+</LinearLayout>

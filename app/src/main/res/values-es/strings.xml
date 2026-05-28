@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Tabbeo</string>
+    <string name="title_activity_world_map">Tabbeo</string>
+    <string name="title_activity_activity_pre_exercise">PreExercise</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_exercise_tutorial_basic_concepts">TutorialBasicConcepts</string>
+
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="idk">No lo sé</string>
+    <string name="silence">Silencio</string>
+    <string name="ok">Ok</string>
+
+    <!-- Items in drawer layout -->
+    <string name="drawerlayout_course">Curso</string>
+    <string name="drawerlayout_profile">Perfil</string>
+    <string name="drawerlayout_settings">Ajustes</string>
+    <string name="drawerlayout_feedback">Sugerir una mejora</string>
+    <string name="drawerlayout_about">Acerca de</string>
+
+    <!-- Errors -->
+    <string name="micaudiosource_cant_access_mic">Otra app está usando el micrófono :(</string>
+
+    <!-- Logging  -->
+    <string name="Logging_Begin">Comienza</string>
+    <string name="Logging_Motto">"Aprende a tocar la guitarra gratis"</string>
+
+    <!-- Course -->
+    <string name="Course_Test_Exercises">Ejercicios de prueba</string>
+
+    <!-- Profile -->
+    <string name="Profile_Level">Nivel</string>
+    <string name="Profile_CompletedProgress">Porcentaje completado:</string>
+    <string name="Profile_TotalExperience">Experiencia acumulada:</string>
+
+    <!-- Settings -->
+    <string name="Settings_Left_Handed">Zurdo</string>
+    <string name="Settings_Debug_Mode">Modo depuración</string>
+    <string name="Settings_Debug_DOREMI_Notation">Do, Re, Mi</string>
+    <string name="Settings_Debug_ABC_Notation">A, B, C</string>
+    <string name="Settings_Clear_Scores">Borrar puntuaciones</string>
+
+    <!-- Why we need RECORD_AUDIO permission dialog -->
+    <string name="why_we_need_record_audio_title">Necesitamos el micrófono</string>
+    <string name="why_we_need_record_audio_explanation">Para que podamos escucharte mientras tocas y decirte cómo lo haces</string>
+    <string name="why_we_need_access_to_mic">Necesitamos acceder al micrófono para hacer este ejercicio</string>
+
+    <!-- Exercise prev info   -->
+    <string name="Exercise_PrevInfo_Start">Empezar</string>
+
+    <!-- Exercise help dialog -->
+    <string name="HelpDialog_Title">¿Qué sucede?</string>
+    <string name="HelpDialog_Close">Cerrar</string>
+    <string name="HelpDialog_DontUnderstandExercise">No entiendo el ejercicio</string>
+    <string name="HelpDialog_SomethingIsIncorrect">Algo está mal</string>
+    <string name="HelpDialog_SuggestAnImprovement">Algo se puede mejorar</string>
+    <string name="HelpDialog_SoundNotDetected">No me detecta lo que estoy tocando</string>
+    <string name="HelpDialog_IsGuitarTuned">¿Está afinada la guitarra?</string>
+    <string name="HelpDialog_DownloadTunningApp">¡Descarga una aplicación para afinarla y afínala primero!</string>
+
+    <!-- Exercise types   -->
+    <string name="ExerciseType_Slideshow">Conceptos básicos</string>
+    <string name="ExerciseType_TutorialMelody">Tutorial Melodía</string>
+    <string name="ExerciseType_TutorialChordsRhythm">Tutorial Ritmo de Acordes</string>
+    <string name="ExerciseType_MelodyTest">Melodia Test</string>
+    <string name="ExerciseType_GuitarTutorial">Tutorial de Guitarra</string>
+    <string name="ExerciseType_Melody">Melodía</string>
+    <string name="ExerciseType_MelodyDynamic">Melodía dinámica</string>
+    <string name="ExerciseType_ChordsTest">Acordes Test</string>
+    <string name="ExerciseType_Chords">Acordes</string>
+
+    <!-- Pre-Exercise   -->
+    <string name="PreExercise_Type">Tipo</string>
+    <string name="PreExercise_Difficulty">Dificultad</string>
+    <string name="PreExercise_YouNeedToPlay">Empieza a jugar para conseguir una puntuación</string>
+    <string name="PreExercise_Congrats1">Has conseguido 1 Chordy, sigue intentándolo!</string>
+    <string name="PreExercise_Congrats2">Has conseguido 2 Chordies, continúa mejorando!</string>
+    <string name="PreExercise_Congrats3">Has conseguido 3 Chordies, vas mejorando!</string>
+    <string name="PreExercise_Congrats4">Has conseguido 4 Chordies, a un paso de la perfección!</string>
+    <string name="PreExercise_Congrats5">Has conseguido 5 Chordies, enhorabuena!!</string>
+    <string name="PreExercise_Date">Fecha</string>
+    <string name="PreExercise_Experience">Experiencia</string>
+    <string name="PreExercise_Score">Puntuación</string>
+    <string name="PreExercise_Exercise">Ejercicio</string>
+
+    <!-- Post-Exercise   -->
+    <string name="Exercise_Ending_LevelComplete">¡Ejercicio Completado!</string>
+    <string name="Exercise_Ending_Points">puntos</string>
+    <string name="Exercise_Ending_Retry">Reintentar</string>
+    <string name="Exercise_Ending_Continue">Continuar</string>
+
+    <!-- Tutorial Basic Concepts   -->
+    <string name="TutorialBasicConcepts_Description">Lo primero es aprender los conceptos básicos de una guitarra. ¿Qué partes tiene? ¿Cómo se coge? ¿Cómo pulsamos las cuerdas? Asegúrate de que tienes tu guitarra, y de que estas en un sitio sin molestias</string>
+    <string name="TutorialBasicConcepts_Explanation_0">Acomódate y coge la guitarra de esta forma</string>
+    <string name="TutorialBasicConcepts_Explanation_1">La guitarra tiene 6 cuerdas</string>
+    <string name="TutorialBasicConcepts_Explanation_2">La que está más arriba es la más grave</string>
+    <string name="TutorialBasicConcepts_Explanation_3">Y la que está más abajo es la más aguda</string>
+    <string name="TutorialBasicConcepts_Explanation_4">Con tu mano derecha haces sonar las cuerdas</string>
+    <string name="TutorialBasicConcepts_Explanation_5">¡Prueba y verás!</string>
+    <string name="TutorialBasicConcepts_Explanation_6">A tu izquierda se extiende el mástil</string>
+    <string name="TutorialBasicConcepts_Explanation_7">Cada celda se denomina traste, y se usa para cambiar el sonido de las cuerdas</string>
+    <string name="TutorialBasicConcepts_Explanation_8">Con tu mano izquierda puedes pisar las cuerdas en cada traste</string>
+    <string name="TutorialBasicConcepts_Explanation_9">Debes pisarlo cerca de la parte metálica, ¡pero no encima de ella!</string>
+    <string name="TutorialBasicConcepts_Explanation_10">Esto es todo lo que necesitas saber por el momento. ¡Comenzamos!</string>
+
+    <!-- Tutorial FirstAMajor -->
+    <string name="ExerciseFirstAMajor_Description">Los acordes se usan para crear ritmos con la guitarra. Prácticamente todas las canciones lo usan de una manera u otra. Aquí aprenderás a tocar La Mayor, uno de los básicos</string>
+    <string name="ExerciseFirstAMajor_Explanation_0">¡Hola! Soy Chordy. Aquí aprenderás a tocar tu primer acorde: ¡La Mayor!</string>
+    <string name="ExerciseFirstAMajor_Explanation_1">Los acordes se usan para crear ritmos, y tienen diferentes modalidades que pronto aprenderás, por ejemplo: Menores, Séptimas...</string>
+    <string name="ExerciseFirstAMajor_Explanation_2">Te escucharé mientras tocas y te evaluaré. Coge la guitarra y pulsa Play</string>
+    <string name="ExerciseFirstAMajor_Explanation_3">Este es el mástil tal y como lo ves a tu izquierda (solo los primeros trastes). Ahí está La Mayor</string>
+    <string name="ExerciseFirstAMajor_Explanation_4">Coloca los dedos como se indica para hacer La Mayor. ¿Ves la cruz roja en la sexta cuerda? Eso significa que no debes tocarla</string>
+    <string name="ExerciseFirstAMajor_Explanation_5">Asegúrate que las cuerdas suenan bien. Tomará un poco hasta que tus dedos se adapten, pero te prometo que muy pronto será lo más fácil del mundo</string>
+    <string name="ExerciseFirstAMajor_Explanation_6">Abajo, cada púa es un golpe de cuerdas, en este caso para abajo</string>
+    <string name="ExerciseFirstAMajor_Explanation_7">Tienes que tocar las cuerdas justo cuando la púa este en el centro de la línea. Te escucho, ¡Prueba!</string>
+    <string name="ExerciseFirstAMajor_Explanation_8">¡Genial! Acaba el ejercicio con los golpes que quedan</string>
+
+    <!-- Exercise FirstDMajor -->
+    <string name="ExerciseFirstDMajor_Description">El siguiente acorde es Re Mayor, que va muy bien con La Mayor. Son dos acordes muy usados en muchos estilos musicales. Practicalos hasta que los domines, y pronto estarás tocando ritmos bonitos</string>
+
+    <!-- Exercise FirstEMajor -->
+    <string name="ExerciseFirstEMajor_Description">El último acorde antes de pasar a tocar una canción es Mi Mayor. Es el que tiene un sonido más rico, porque utiliza las seis cuerdas. Puedes tocarlo junto a La Mayor y Re Mayor y siempre sonarán genial</string>
+
+    <!-- Exercise UpAndDownEMajor -->
+    <string name="ExerciseUpAndDownAMajor_Description">Volvemos a tocar La Major, pero ahora presta atención a la dirección del golpe. Toca de arriba a abajo, y de abajo a arriba de forma alternada. Asegúrate de tocar a tiempo o perderás puntos</string>
+
+    <!-- Exercise First time switching chords -->
+    <string name="ExerciseFirstTimeSwitchingChords_Description">Es la hora de la prueba final: cambiar de acordes. Practica despacio el cambio de un acorde a otro. También presta atención a la dirección del golpe de cuerdas. Prácticalo unas cuantas veces y serás un profesional en un abrir y cerrar de ojos</string>
+
+    <!-- Exercise Ode to Joy -->
+    <string name="ExerciseOdeToJoy_Description">Vamos a tocar una melodía que estoy seguro ya conoces: el himno de la alegría. Todo el mundo que quiera aprender a tocar la guitarra, debe conocerla</string>
+
+    <!-- Tutorial Basic Melody   -->
+    <string name="TutorialMelody_Description">Ya que sabemos lo básico sobre acordes, vamos a aprender sobre melodías. Las melodías son sucesiones de notas tocadas una detrás de otra (como un sólo de guitarra)</string>
+    <string name="TutorialMelody_Explanation_0">¡Hola otra vez! Vamos a aprender cómo tocar melodías</string>
+    <string name="TutorialMelody_Explanation_1">Las notas aparecerán en el mástil según tengas que tocarlas</string>
+    <string name="TutorialMelody_Explanation_2">Para empezar el ejercicio, pulsa Play</string>
+    <string name="TutorialMelody_Explanation_3">¡Atento a la primera nota que aparecerá en la primera cuerda!</string>
+    <string name="TutorialMelody_Explanation_4">La nota no está sobre ningún traste, por lo que no tienes que pisar ninguno (se toca la cuerda al aire)</string>
+    <string name="TutorialMelody_Explanation_5">Cuando los dos círculos coinciden, hay que tocar la nota. ¡Prueba!</string>
+    <string name="TutorialMelody_Explanation_6">¡Bien! La siguiente nota está sobre el primer traste. Písalo con tu dedo índice y toca la cuerda</string>
+    <string name="TutorialMelody_Explanation_7">¡Genial! Esta vez, debes tocar la segunda cuerda al aire</string>
+    <string name="TutorialMelody_Explanation_8">¡Perfect! Para la última, toca el primer traste de la segunda cuerda. ¡Disfruta tocando! </string>
+</resources>

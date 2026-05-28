@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/drawerview_checkable_items">
+        <item
+            android:id="@+id/drawerview_menu_course"
+            android:icon="@drawable/icon_course"
+            android:title="@string/drawerlayout_course"
+            android:checkable="true"
+            />
+
+        <!-- Do not show it until we have something meaningful -->
+        <item
+            android:id="@+id/drawerview_menu_profile"
+            android:icon="@drawable/icon_profile"
+            android:title="@string/drawerlayout_profile"
+            android:checkable="true"
+            android:visible="false"
+            />
+
+        <item
+            android:id="@+id/drawerview_menu_settings"
+            android:checkable="true"
+            android:icon="@drawable/icon_settings"
+            android:title="@string/drawerlayout_settings" />
+    </group>
+
+    <group android:id="@+id/drawerview_non_checkable_items">
+        <item
+            android:id="@+id/drawerview_menu_feedback"
+            android:icon="@drawable/icon_feedback"
+            android:title="@string/drawerlayout_feedback" />
+        <item
+            android:id="@+id/drawerview_menu_about"
+            android:icon="@drawable/icon_about"
+            android:title="@string/drawerlayout_about" />
+    </group>
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="10px"
+            android:text="Tabbeo"
+            android:textColor="@color/tabbeo_dark_blue"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <!-- Privacy policy -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="25px"
+            android:text="Privacy policy"
+            android:textColor="@color/tabbeo_dark_blue"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/tabbeo_light_blue"
+            android:text="@string/privacy_policy"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- Open source libraries -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/tabbeo_light_blue"
+            android:text="This app uses the following open-source libraries:"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- fftw -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="25px"
+            android:text="FFTW"
+            android:textColor="@color/tabbeo_dark_blue"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/tabbeo_light_blue"
+            android:text="@string/license_fftw"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <!-- aubio -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="25px"
+            android:text="Aubio"
+            android:textColor="@color/tabbeo_dark_blue"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/tabbeo_light_blue"
+            android:text="@string/license_aubio"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        <!-- clam -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="25px"
+            android:text="Clam"
+            android:textColor="@color/tabbeo_dark_blue"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/tabbeo_light_blue"
+            android:text="@string/license_clam"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+</ScrollView>

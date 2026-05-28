@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#434343</color>
+    <color name="text_blue">#2B2E83</color>
+    <color name="tabbeo_dark_blue">#1770B8</color>
+    <color name="tabbeo_light_blue">#009FE3</color>
+    <color name="tabbeo_dark_blue_pressed">#2B2E83</color>
+    <color name="tabbeo_light_blue_pressed">#009FE3</color>
+    <color name="tabbeo_light_green">#89CE37</color>
+    <color name="tabbeo_dark_green">#2FAC66</color>
+    <color name="worldmap_exercisebutton_pressed_tint">#32000000</color>
+
+    <!-- Official note colors -->
+    <!-- We used pastel colors, in HSV space with the following criteria
+    All of them have S=65.
+    Natural notes have V=85, while sharp notes have V=75
+    The hue has been divided between 7 evenly (the natural notes), which is an interval of 51.43
+    E is the first one with H=0, F has H=51.43... an so on
+    From there, there was also a lot of fine tunning. Final colors in tabbeo_colors_note.xfc in Dropbox-->
+    <color name="note_a">#99ffde</color>
+    <color name="note_a_sharp">#85dec1</color>
+    <color name="note_b">#a8daff</color>
+    <color name="note_c">#c8b3ff</color>
+    <color name="note_c_sharp">#ae9bde</color>
+    <color name="note_d">#ffb3f3</color>
+    <color name="note_d_sharp">#e09dd6</color>
+    <color name="note_e">#ff8080</color>
+    <color name="note_f">#fffe8c</color>
+    <color name="note_f_sharp">#e0df7b</color>
+    <color name="note_g">#c7ff99</color>
+    <color name="note_g_sharp">#afe087</color>
+    <color name="note_gray">#cfcfcf</color>
+
+
+    <!-- Official finger colors -->
+    <color name="finger1">#d95757</color>
+    <color name="finger2">#d9de59</color>
+    <color name="finger3">#57d9d9</color>
+    <color name="finger4">#a36dd9</color>
+</resources>

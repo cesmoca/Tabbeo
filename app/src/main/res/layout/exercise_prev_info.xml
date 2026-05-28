@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/exercise_prev_info_MainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.tabbeo.Activities.Exercises.ActivityExercisePrevInfo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/exercise_prev_info_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        >
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/exercise_prev_info_ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/exercise_prev_info_toolbar"
+        android:layout_above="@+id/PreExercise_Button">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/exercise_prev_info_Difficulty_Type_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="bottom"
+                android:layout_centerHorizontal="true"
+                android:text="@string/PreExercise_Difficulty"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_dark_blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/exercise_prev_info_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/exercise_prev_info_Difficulty_Type_TextView"
+                android:text="Small Text or bigger text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/tabbeo_light_blue" />
+
+            <TextView
+                android:id="@+id/exercise_prev_info_SummaryText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/exercise_prev_info_description"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="@string/PreExercise_YouNeedToPlay"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/tabbeo_light_blue"
+                android:textStyle="bold" />
+
+            <com.tabbeo.Widgets.PicksScore
+                android:id="@+id/exercise_prev_info_PicksScore_Container"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/exercise_prev_info_SummaryText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                custom:picks_color="blue" />
+
+            <TableRow
+                android:id="@+id/exercise_prev_info_BelowTableRow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/exercise_prev_info_PicksScore_Container"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/exercise_prev_info_BelowTableRow_Date"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/PreExercise_Date"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/tabbeo_dark_blue"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/exercise_prev_info_BelowTableRow_Experience"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/PreExercise_Experience"
+                    android:textColor="@color/tabbeo_dark_blue"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/exercise_prev_info_BelowTableRow_Score"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/PreExercise_Score"
+                    android:textColor="@color/tabbeo_dark_blue"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableLayout
+                android:id="@+id/exercise_prev_info_TableBelow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:layout_below="@+id/exercise_prev_info_BelowTableRow"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/PreExercise_Button"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/Exercise_PrevInfo_Start"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

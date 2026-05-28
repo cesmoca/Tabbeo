@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Tabbeo</string>
+    <string name="title_activity_world_map">Tabbeo</string>
+    <string name="title_activity_activity_pre_exercise">PreExercise</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_exercise_tutorial_basic_concepts">TutorialBasicConcepts</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="idk">I dont\' know</string>
+    <string name="silence">Silence</string>
+    <string name="ok">Ok</string>
+
+    <!-- Items in drawer layout -->
+    <string name="drawerlayout_course">Course</string>
+    <string name="drawerlayout_profile">Profile</string>
+    <string name="drawerlayout_settings">Settings</string>
+    <string name="drawerlayout_feedback">Feedback</string>
+    <string name="drawerlayout_about">About</string>
+
+    <!-- Errors -->
+    <string name="micaudiosource_cant_access_mic">Another app is using the mic :(</string>
+
+    <!-- Logging  -->
+    <string name="Logging_Begin">Start</string>
+    <string name="Logging_Motto">"Learn to play the guitar, for free"</string>
+
+    <!-- Course -->
+    <string name="Course_Test_Exercises">Test exercises</string>
+
+    <!-- Profile -->
+    <string name="Profile_Level">Level</string>
+    <string name="Profile_CompletedProgress">Percentage of completion:</string>
+    <string name="Profile_TotalExperience">Total experience:</string>
+
+    <!-- Settings -->
+    <string name="Settings_Left_Handed">Left handed</string>
+    <string name="Settings_Debug_Mode">Enable debug mode</string>
+    <string name="Settings_Debug_DOREMI_Notation">Do, Re, Mi</string>
+    <string name="Settings_Debug_ABC_Notation">A, B, C</string>
+    <string name="Settings_Clear_Scores">Clear scores</string>
+
+    <!-- Why we need RECORD_AUDIO permission dialog -->
+    <string name="why_we_need_record_audio_title">We need the mic</string>
+    <string name="why_we_need_record_audio_explanation">So that we can listen to you playing and give you feedback</string>
+    <string name="why_we_need_access_to_mic">We need access to the mic to do this exercise</string>
+
+    <!-- Exercise prev info   -->
+    <string name="Exercise_PrevInfo_Start">Start</string>
+
+    <!-- Exercise help dialog -->
+    <string name="HelpDialog_Title">What\'s wrong?</string>
+    <string name="HelpDialog_Close">Close</string>
+    <string name="HelpDialog_DontUnderstandExercise">I don\'t understand the exercise</string>
+    <string name="HelpDialog_SomethingIsIncorrect">Something is incorrect</string>
+    <string name="HelpDialog_SuggestAnImprovement">Suggest an improvement</string>
+    <string name="HelpDialog_SoundNotDetected">The app does not detect what I play</string>
+    <string name="HelpDialog_IsGuitarTuned">Is your guitar tuned?</string>
+    <string name="HelpDialog_DownloadTunningApp">Download a tuner app and tune it first!</string>
+
+    <!-- Exercise type   -->
+    <string name="ExerciseType_Slideshow">Basic concepts</string>
+    <string name="ExerciseType_TutorialMelody">Tutorial Melody</string>
+    <string name="ExerciseType_TutorialChordsRhythm">Tutorial Chords Rhythm</string>
+    <string name="ExerciseType_MelodyTest">Melody Test</string>
+    <string name="ExerciseType_GuitarTutorial">Guitar Tutorial</string>
+    <string name="ExerciseType_Melody">Melody</string>
+    <string name="ExerciseType_MelodyDynamic">Melody Dynamic</string>
+    <string name="ExerciseType_ChordsTest">Chords Test</string>
+    <string name="ExerciseType_Chords">Chords</string>
+
+    <!-- Pre-Exercise   -->
+    <string name="PreExercise_Type">Type</string>
+    <string name="PreExercise_Difficulty">Difficulty</string>
+    <string name="PreExercise_YouNeedToPlay">Start playing in order to get a Score!</string>
+    <string name="PreExercise_Congrats1">You got 1 Chordy, keep trying!</string>
+    <string name="PreExercise_Congrats2">You got 2 Chordies, keep improving!</string>
+    <string name="PreExercise_Congrats3">You got 3 Chordies, you\re better than before!</string>
+    <string name="PreExercise_Congrats4">You got 4 Chordies, one step from success!</string>
+    <string name="PreExercise_Congrats5">You got 5 Chordies, congrats!!</string>
+    <string name="PreExercise_Date">Date</string>
+    <string name="PreExercise_Experience">Experience</string>
+    <string name="PreExercise_Score">Score</string>
+    <string name="PreExercise_Exercise">Exercise</string>
+
+    <!-- Post-Exercise   -->
+    <string name="Exercise_Ending_LevelComplete">Exercise Completed!</string>
+    <string name="Exercise_Ending_Points">points</string>
+    <string name="Exercise_Ending_Retry">Retry</string>
+    <string name="Exercise_Ending_Continue">Continue</string>
+
+    <!-- Tutorial Basic Concepts   -->
+    <string name="TutorialBasicConcepts_Description">First of all, we are going to learn the basics about a guitar. What parts is it made of? How to grab it? How to push the strings? Make sure you have your guitar, and that you are in a comfortable place</string>
+    <string name="TutorialBasicConcepts_Explanation_0">Get comfy and grab the guitar like this</string>
+    <string name="TutorialBasicConcepts_Explanation_1">A guitar has 6 strings</string>
+    <string name="TutorialBasicConcepts_Explanation_2">The one on top has the lowest pitch</string>
+    <string name="TutorialBasicConcepts_Explanation_3">And the one on the bottom has the highest pitch</string>
+    <string name="TutorialBasicConcepts_Explanation_4">Use your right hand to make the strings sound</string>
+    <string name="TutorialBasicConcepts_Explanation_5">Try and see!</string>
+    <string name="TutorialBasicConcepts_Explanation_6">On your left part there is the fretboard</string>
+    <string name="TutorialBasicConcepts_Explanation_7">Each cell is called a fret, and are used to change the sound of the strings</string>
+    <string name="TutorialBasicConcepts_Explanation_8">Use your left hand to push the strings on each fret</string>
+    <string name="TutorialBasicConcepts_Explanation_9">You should push right next to the metallic bar, but not on top of it!</string>
+    <string name="TutorialBasicConcepts_Explanation_10">That\'s all for now. Let\'s start!</string>
+
+    <!-- Tutorial FirstAMajor -->
+    <string name="ExerciseFirstAMajor_Description">Chords are used to make rhythms with the guitar. Virtually every song use them one way or another. Here you will learn to play A Major, one of the basics</string>
+    <string name="ExerciseFirstAMajor_Explanation_0">Hi! I\'m Chordy. Here you will learn to play your fist chord: A Major!</string>
+    <string name="ExerciseFirstAMajor_Explanation_1">Chords are used to produce rhythms, and they have different modalities that you will learn soon, for example: Minor, Seventh...</string>
+    <string name="ExerciseFirstAMajor_Explanation_2">I will listen while you play and give you feedback. Grab the guitar, and press Play</string>
+    <string name="ExerciseFirstAMajor_Explanation_3">This is the fretboard as you can see it on your left (just the first top frets). You can see A Major there</string>
+    <string name="ExerciseFirstAMajor_Explanation_4">Put your fingers like that to make A Major. Do you see the red cross on the sixth string? That means you should not play that one</string>
+    <string name="ExerciseFirstAMajor_Explanation_5">Make sure that all the strings sound nice. It will take a while for your fingers to adapt to it, but I promise it will feel super natural very soon</string>
+    <string name="ExerciseFirstAMajor_Explanation_6">In the bottom each pick is a stroke, in this case a down stroke</string>
+    <string name="ExerciseFirstAMajor_Explanation_7">You need to play the stroke when the pick reaches the line. I am listening, give it a try!</string>
+    <string name="ExerciseFirstAMajor_Explanation_8">Great! Finish the exercise by playing the rest of strokes</string>
+
+    <!-- Exercise FirstDMajor -->
+    <string name="ExerciseFirstDMajor_Description">The next one is D Major,  chord that goes really well with A Major. These are two widely used chords and popular songs. Practice both, and soon you will be composing beautiful rhythms</string>
+
+    <!-- Exercise FirstEMajor -->
+    <string name="ExerciseFirstEMajor_Description">The last chord we need before playing a proper song, is E Major. It is the most fully sounding, because it uses the six strings. You can play along A Major and D Major and they will always sound great</string>
+
+    <!-- Exercise UpAndDownEMajor -->
+    <string name="ExerciseUpAndDownAMajor_Description">Now we go back to A Major, but you have to pay attention to the direction of the stroke. Play the strokes from up to down, and from down to up alternatively. Make sure you play it on time or you will lose points</string>
+
+    <!-- Exercise First time switching chords -->
+    <string name="ExerciseFirstTimeSwitchingChords_Description">It is the time for the final test: changing chords. Practice slowly how to change from one chord to the other. Also, play close attention to the direction of the stroke. Practice this a few times, and you will be a pro in no time</string>
+
+    <!-- Exercise Ode to Joy -->
+    <string name="ExerciseOdeToJoy_Description">Let\'s go for a melody that I am sure you know already: the Ode to Joy. It is a must-know for everyone that wants to play the guitar</string>
+
+    <!-- Tutorial Melody   -->
+    <string name="TutorialMelody_Description">Now that we know the basics about chords, let\'s learn about melodies. Melodies are notes played one at a time (like a guitar solo)</string>
+    <string name="TutorialMelody_Explanation_0">Hi again! Now we are going to learn how to play melodies</string>
+    <string name="TutorialMelody_Explanation_1">The notes will appear in the fretboard as they need to be played</string>
+    <string name="TutorialMelody_Explanation_2">To start the exercise, press Play</string>
+    <string name="TutorialMelody_Explanation_3">Look out for the first note in the first string</string>
+    <string name="TutorialMelody_Explanation_4">The note is not on any fret, so you do not have to push any. That is called play an open string</string>
+    <string name="TutorialMelody_Explanation_5">When both circles touch, it is time to play the note. Try!</string>
+    <string name="TutorialMelody_Explanation_6">Good! Now you see the next note is in the first fret. Push it with your index finger and play the string</string>
+    <string name="TutorialMelody_Explanation_7">Awesome! This time, you have to play the second open string</string>
+    <string name="TutorialMelody_Explanation_8">Great! Last one, play the first fret on the second string. Happy playing!</string>
+</resources>
