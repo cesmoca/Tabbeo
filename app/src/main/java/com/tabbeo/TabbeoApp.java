@@ -2,7 +2,6 @@ package com.tabbeo;
 
 import android.app.Application;
 import android.content.Context;
-import android.support.multidex.MultiDex;
 
 import com.instabug.library.IBGInvocationEvent;
 import com.instabug.library.Instabug;
@@ -12,12 +11,6 @@ public class TabbeoApp extends Application {
 
     // For the runtime permissions starting API 23 Marshmallow
     public static final int TABBEO_PERMISSION_RECORD_AUDIO = 0;
-
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-        MultiDex.install(this);
-    }
 
     @Override
     public void onCreate(){
