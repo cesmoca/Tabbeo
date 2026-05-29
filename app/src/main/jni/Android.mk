@@ -13,10 +13,13 @@
 # limitations under the License.
 #
 LOCAL_PATH := $(call my-dir)
+rwildcard = $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2) $(filter $(subst *,%,$2),$d))
+native_sources = $(patsubst $(LOCAL_PATH)/%,%,$(call rwildcard,$(LOCAL_PATH)/$1/,$2))
 
 include $(CLEAR_VARS)
 LOCAL_MODULE    := libfftw
-LOCAL_CFLAGS    := -Werror -fexceptions -g\
+LOCAL_SHORT_COMMANDS := true
+LOCAL_CFLAGS    := -fexceptions -g\
 		-I$(LOCAL_PATH)/fftw \
 		-I$(LOCAL_PATH)/fftw/api \
 		-I$(LOCAL_PATH)/fftw/kernel \
@@ -29,7 +32,7 @@ LOCAL_CFLAGS    := -Werror -fexceptions -g\
 		-I$(LOCAL_PATH)/fftw/dft/simd \
 		-I$(LOCAL_PATH)/fftw/dft/scalar
 
-LOCAL_SRC_FILES := $(shell cd $(LOCAL_PATH); find ./fftw/ -type f -name '*.c'; find ./fftw/ -type f -name '*.cpp')
+LOCAL_SRC_FILES := $(call native_sources,fftw,*.c) $(call native_sources,fftw,*.cpp)
 
 include $(BUILD_STATIC_LIBRARY)
 
@@ -37,24 +40,24 @@ include $(BUILD_STATIC_LIBRARY)
 #libaubio module
 include $(CLEAR_VARS)
 LOCAL_MODULE    := libaubio
-LOCAL_CFLAGS    := -Werror -g\
+LOCAL_SHORT_COMMANDS := true
+LOCAL_CFLAGS    := -g\
 		-I$(LOCAL_PATH)/aubio \
 		-I$(LOCAL_PATH)/aubio/ext \
 		-I$(LOCAL_PATH)/aubio/src \
-		-I$(LOCAL_PATH)/libsamplerate \
 		-I$(LOCAL_PATH)/fftw \
-		-I$(LOCAL_PATH)/libsndfile \
 		-I$(LOCAL_PATH)/include
 
-LOCAL_SRC_FILES := $(shell cd $(LOCAL_PATH); find ./aubio/ -type f -name '*.c'; find ./aubio/ -type f -name '*.cpp';)
-LOCAL_STATIC_LIBRARIES := libfftw libsndfile libsamplerate libfftw
+LOCAL_SRC_FILES := $(call native_sources,aubio,*.c) $(call native_sources,aubio,*.cpp)
+LOCAL_STATIC_LIBRARIES := libfftw
 
 include $(BUILD_STATIC_LIBRARY)
 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE    := Detector
-LOCAL_CFLAGS    := -Werror -g -std=c++11\
+LOCAL_SHORT_COMMANDS := true
+LOCAL_CFLAGS    := -g -std=c++11\
 		-I$(LOCAL_PATH)/aubio \
 		-I$(LOCAL_PATH)/aubio/src \
 		-I$(LOCAL_PATH)/fftw \
@@ -66,7 +69,3 @@ LOCAL_SRC_FILES := PitchDetector.cpp ChordDetector.cpp clam/ChordCorrelator.cxx 
 LOCAL_LDLIBS := -Lbuild/platforms/android-1.5/arch-arm/usr/lib -llog -lm
 
 include $(BUILD_SHARED_LIBRARY)
-
-
-
-

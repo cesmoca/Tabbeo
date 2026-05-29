@@ -9,7 +9,6 @@ import android.graphics.Rect;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.support.annotation.CallSuper;
-import android.test.suitebuilder.annotation.SmallTest;
 import android.util.AttributeSet;
 import android.view.View;
 
