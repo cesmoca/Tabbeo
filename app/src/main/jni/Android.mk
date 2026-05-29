@@ -66,6 +66,7 @@ LOCAL_CFLAGS    := -g -std=c++11\
 
 LOCAL_STATIC_LIBRARIES := libaubio libfftw
 LOCAL_SRC_FILES := PitchDetector.cpp ChordDetector.cpp clam/ChordCorrelator.cxx clam/FourierTransform.cxx clam/ConstantQFolder.cxx clam/ConstantQTransform.cxx jniUtils.cpp main.cpp
+LOCAL_LDFLAGS += -Wl,-z,max-page-size=16384 -Wl,-z,common-page-size=16384
 LOCAL_LDLIBS := -Lbuild/platforms/android-1.5/arch-arm/usr/lib -llog -lm
 
 include $(BUILD_SHARED_LIBRARY)
